@@ -1,0 +1,150 @@
+/* This is the Register stylesheet */
+
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  align-content: center;
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+  font-size: small;
+  height: 50px;
+  z-index: 100;
+}
+
+.under-header {
+  background-color: lightskyblue;
+  color: white;
+  font-family: monospace;
+  font-size: small;
+  height: 50px;
+  margin-top: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  align-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 30px;
+}
+
+.form-container {
+  margin-top: 120px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  border-right-width: 1px solid blue;
+  border-right-style: solid;
+  border-right-color: blue;
+  border-radius: 30px;
+}
+legend {
+  color: blue;
+  font-family: consolas;
+  font-size: larger;
+}
+label {
+  color: blue;
+  font-family: consolas;
+  font-size: smaller;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+  width: 250px;
+  padding: 3px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid grey;
+  color: blue;
+  caret-color: lightblue;
+  font-size: smaller;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  color: white;
+  margin-left: 40%;
+  transition: all 0.5s;
+}
+input[type="submit"]:hover {
+  background-color: navy;
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.redirection {
+  text-decoration: none;
+  font-size: smaller;
+  text-align: center;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+::placeholder {
+  color: lightgray;
+  font-size: smaller;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+fieldset {
+  border: 1px solid lightblue;
+  border-radius: 30px;
+}
+
+.form-description {
+  background-color: lightskyblue;
+  color: white;
+  padding: 5px;
+  font-family: monospace;
+  line-height: 20px;
+  margin-top: 120px;
+}
+
+.a-link {
+  background-color: navy;
+  color: greenyellow;
+}
+
+.footer {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: navajowhite;
+  font-size: xx-small;
+  text-align: center;
+  align-content: center;
+  color: navy;
+}

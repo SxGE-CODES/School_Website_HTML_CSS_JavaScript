@@ -1,0 +1,126 @@
+/* This is the Dashboard Stylesheet */
+
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+}
+
+body {
+  padding: none;
+  margin: none;
+}
+
+.h1-container {
+  padding-top: 20px; 
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  align-content: center;
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+  font-size: small;
+  height: 50px;
+  z-index: 100;
+}
+
+.under-header {
+  background-color: lightskyblue;
+  color: white;
+  font-family: monospace;
+  font-size: small;
+  height: 50px;
+  /* margin-top: 50px; */ /* */
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  align-content: center;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: blue;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+  align-content: center;
+  vertical-align: middle;
+  width: 550px;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  font-family: monospace;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: white;
+  padding-right: 30px;
+  align-items: center;
+  transition: all 0.9s;
+}
+.last-menu {
+  border-right-width: 0px;
+  padding-right: 0px;
+}
+.menu:hover {
+  text-decoration: underline;
+}
+
+.main-links-container {
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.main-links {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.main-links:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: navajowhite;
+  font-size: xx-small;
+  text-align: center;
+  align-content: center;
+  color: navy;
+}
