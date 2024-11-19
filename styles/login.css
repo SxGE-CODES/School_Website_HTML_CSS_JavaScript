@@ -103,7 +103,8 @@ a {
 p {
 }
 .redirection {
-  margin-left: 20%;
+  text-align: center;
+  margin-top: 15px;
   font-size: small;
 }
 .forgot-pass-link {
@@ -125,3 +126,4 @@ footer {
   font-size: smaller;
   font-weight: normal;
 }
+
