@@ -28,7 +28,7 @@ document.getElementById("formData").addEventListener("submit", (e) => {
 
   // Redirect to login page
   // window.location.href, window.location.assign
-  window.location.href = "./login.html";  
+  window.location.href = "./index.html";  
   }  else {
     alert("You must read and accept our terms and conditions before registration")
   }
