@@ -9,13 +9,13 @@ When trying to access a site with Authentication
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login-Account</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./styles/login.css" />
-    <!-- <link rel="stylesheet" href="./styles/css/bootstrap.min.css" /> -->
   </head>
   <body>
-    <header>FTDP National Open University - Manchester, England.</header>
+    <header class="w-sm-25">FTDP National Open University - Manchester, England.</header>
 
-    <form action="" id="login-form-data">
+    <form action="" id="login-form-data" class="w-sm-25 py-5">
       <fieldset>
         <legend>Enter details to login</legend>
 
@@ -50,13 +50,15 @@ When trying to access a site with Authentication
       </fieldset>
     </form>
 
-    <footer>
+    <footer class="w-sm-50">
       <p>
         FTDP Rights and Reserved copyright&copy; @2024 Bizmarrow Team of
         Developers
       </p>
     </footer>
 
+
+    <script src="scripts/js/bootstrap.bundle.js"></script>
     <script type="module" src="scripts/login.js"></script>
   </body>
 </html>

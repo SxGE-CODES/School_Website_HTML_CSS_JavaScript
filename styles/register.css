@@ -5,6 +5,16 @@ html {
   transition: all 0.3s;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -19,6 +29,7 @@ header {
   font-size: small;
   height: 50px;
   z-index: 100;
+  width: 100%;
 }
 
 .under-header {
@@ -33,6 +44,7 @@ header {
   left: 0px;
   right: 0px;
   align-content: center;
+  width: 100%;
 }
 
 .main {
@@ -42,10 +54,13 @@ header {
   align-items: center;
   align-content: center;
   column-gap: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .form-container {
   margin-top: 120px;
+  display: inline-block;
 }
 form {
   display: flex;
@@ -53,21 +68,28 @@ form {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 20px;
-  border-right-width: 1px solid blue;
-  border-right-style: solid;
-  border-right-color: blue;
+}
+fieldset {
+  border: 1px solid lightblue;
   border-radius: 30px;
+  padding: 20px;
 }
 legend {
   color: blue;
   font-family: consolas;
   font-size: larger;
+  margin-top: -35px;
+  margin-left: 0px;
+  background: white;
+  width: max-content;
+  padding-left: 2px;
 }
 label {
   color: blue;
   font-family: consolas;
   font-size: smaller;
+  margin-left: 0px;
+  margin-right: auto;
 }
 
 input[type="text"],
@@ -117,18 +139,15 @@ a {
   font-family: monospace;
 }
 
-fieldset {
-  border: 1px solid lightblue;
-  border-radius: 30px;
-}
-
 .form-description {
   background-color: lightskyblue;
   color: white;
-  padding: 5px;
+  padding: 20px 20px;
   font-family: monospace;
   line-height: 20px;
   margin-top: 120px;
+  display: inline-block;
+  width: 100%;
 }
 
 .a-link {
@@ -147,4 +166,5 @@ fieldset {
   text-align: center;
   align-content: center;
   color: navy;
+  width: 100%;
 }

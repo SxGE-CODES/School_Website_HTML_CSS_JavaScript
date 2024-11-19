@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create Account</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/register.css" />
   </head>
   <body>
@@ -19,13 +20,13 @@
       </marquee>
     </div>
 
-    <div class="main">
-      <div class="form-container">
+    <div class="main row ">
+      <div class="form-container col-md mb-5">
         <form action="" id="formData">
           <fieldset>
             <legend>CREATE ACCOUNT</legend>
 
-            <label for="nameInput">Full name</label>
+            <label for="nameInput" style="margin-left: -150px">Full name</label>
             <br />
             <input
               type="text"
@@ -88,7 +89,7 @@
           </fieldset>
         </form>
       </div>
-      <div class="form-description">
+      <div class="form-description col-md w-md-50  container">
         <p>Register and have access to the following</p>
 
         <ul>
@@ -121,6 +122,7 @@
       </p>
     </div>
 
+    <script src="scripts/js/bootstrap.bundle.js"></script>
     <script src="scripts/register.js"></script>
   </body>
 </html>
