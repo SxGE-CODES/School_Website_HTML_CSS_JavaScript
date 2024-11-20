@@ -25,8 +25,9 @@ header {
   align-content: center;
   background-color: blue;
   color: white;
-  font-family: monospace;
-  font-size: small;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
   height: 50px;
   z-index: 100;
   width: 100%;
@@ -35,7 +36,6 @@ header {
 .under-header {
   background-color: lightskyblue;
   color: white;
-  font-family: monospace;
   font-size: small;
   height: 50px;
   margin-top: 50px;
@@ -45,6 +45,9 @@ header {
   right: 0px;
   align-content: center;
   width: 100%;
+}
+.under-header marquee {
+  font-size: smaller;
 }
 
 .main {
@@ -73,20 +76,23 @@ fieldset {
   border: 1px solid lightblue;
   border-radius: 30px;
   padding: 20px;
+  align-items: left;
+  text-align: left;
 }
 legend {
   color: blue;
-  font-family: consolas;
+  font-family: sans-serif;
   font-size: larger;
   margin-top: -35px;
   margin-left: 0px;
   background: white;
   width: max-content;
   padding-left: 2px;
+  font-weight: medium;
 }
 label {
   color: blue;
-  font-family: consolas;
+  font-weight: medium;
   font-size: smaller;
   margin-left: 0px;
   margin-right: auto;
@@ -105,6 +111,7 @@ select {
   color: blue;
   caret-color: lightblue;
   font-size: smaller;
+  padding-left: 12.5px;
 }
 
 input[type="submit"] {
@@ -132,28 +139,48 @@ input[type="submit"]:hover {
 a {
   text-decoration: none;
 }
+.redirection a {
+  color: blue
+}
+.redirection a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+  color: blue;
+}
 
 ::placeholder {
   color: lightgray;
   font-size: smaller;
   font-weight: bold;
-  font-family: monospace;
 }
 
 .form-description {
   background-color: lightskyblue;
   color: white;
   padding: 20px 20px;
-  font-family: monospace;
   line-height: 20px;
   margin-top: 120px;
   display: inline-block;
-  width: 100%;
+  width: 90%;
+}
+.form-description p {
+  color: blue;
+  line-height: 25px;
+}
+.form-description ul {
+  padding: 10px 0px;
+  list-style: circle;
+  color: blue;
 }
 
 .a-link {
-  background-color: navy;
-  color: greenyellow;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.a-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
 }
 
 .footer {
@@ -168,4 +195,5 @@ a {
   align-content: center;
   color: navy;
   width: 100%;
+  padding: 10px 5px;
 }
